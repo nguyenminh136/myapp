@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="miniQuote">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no,maximum-scale=1.0,width=device-width, initial-scale=1">
+    <title>{{config.appTitle}}</title>
+    <base href="./" target="_blank">
+    <!-- bower_injector:css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+
+    
+    <!-- endbower_injector -->
+    <!-- injector:css -->
+    <link rel="stylesheet" href="../ocInfra/css/angular-growl.css">
+    <link rel="stylesheet" href="../ocInfra/css/custom-style.css">
+    <!-- endinjector -->
+</head>
+
+<body>
+    <div ng-include="'ocInfra/templates/homeheader.html'">
+    </div>
+    <div ng-include="'ocInfra/templates/footer.html'">
+
+    <div class="container-fluid">
+        <div ng-view></div>
+    </div>
+
+    <!-- bower_injector:js -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+
+</body>
+
+</html>
