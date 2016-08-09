@@ -1,3 +1,8 @@
 /bower_components
 /data
 /node_modules
+/tmp
+/src/vendors
+/src/myapp-management/js
+/src/myapp-management/templates
+/src/myapp-management/css
